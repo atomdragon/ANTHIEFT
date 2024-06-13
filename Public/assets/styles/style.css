@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+.Logo_Anthieft {
+    text-align: center;
+    padding-top: 20PX;
+}
+
+.la-manera-ms-container {
+    text-align: center;
+}
+
+.la-manera-ms {
+    font-weight: 300;
+}
+.segura {
+    color:#000;
+    font-family: 'Sulphur Point';
+}
+.la-manera-ms-segura {
+    margin: 0;
+}
+.de-movilizarte-por {
+    margin: 0;
+    font-weight: 300;
+}
+
+/*BTN*/
+.iniciar {
+/* Colores */
+color: #111111;
+background-color: #ffffff;
+border: 3px solid #1685ca;
+/*------*/
+padding: 30px 160px;
+/* Tipografía */
+font-size: 28px;
+/* Radio */
+border-radius: 10px;
+position: relative;
+overflow: hidden;
+transition: background-color 0.4s ease-in-out;
+}
+
+.iniciar::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: rgba(255,255, 255, 0.2);
+    transition: width 0.4sease-in-out;
+    z-index: -1;
+}
+
+.iniciar:hover {
+    background-color: #1685ca;
+    color: #ffffff;
+}
+
+.iniciar:hover::before {
+    width: 100%;
+}
+
+.botoniniciar {
+    padding: 40px ;
+    text-align: center;
+}
+.footer-child {
+    background-color: #d9e3fa;
+    width: 100%;
+    height: 200px;
+}
+.soporte-tcnico {
+    margin-block-start: 0;
+    margin-block-end: 4px;
+}
+
+.p {
+    margin: 0;
+    font-size: 38px;
+}
+.soporte-tcnico-01-container {
+    position:relative;
+    bottom: 150px;
+    left: 50px;
+}
+
+.f {
+    font-family: Iconos;
+}
+/*Redes sociales*/
+.f-anthieftperu-t-container {
+    position: absolute;
+    bottom: 50px;
+    right: 10px;
+    padding: 10px;
+}
+
+/*Términos y condiciones*/
+.safecampus-todos-los-container {
+    position: absolute;
+    width: 40%;
+    bottom: 60px;
+    left: 30%;
+    text-align: center;
+    font-size: 19px;
+    color: rgba(0, 0, 0, 0.88);
+}
+
+.footer {
+    position: static;
+    width: 100%;
+    text-align: left;
+    font-size: 26px;
+    color: #000;
+}
+.first-user-not-logged-in-pag {
+    width: 100%;
+    height: 920px;
+    position: relative;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+    font-size: 64px;
+    color: #666;
+    font-family: 'Sulphur Point';
+}
+
